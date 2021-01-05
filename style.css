@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+body {
+    padding: 10px;
+}
+
+#total {
+    margin: 0 auto;
+    width: 70%;
+    border: 1px solid rgb(187, 187, 187)
+}
+
+.grey {
+    background-color: rgb(73, 73, 73);
+}
+
+.white {
+    background-color: rgb(235, 235, 235);
+}
+
+.smallBlock {
+    width: 100%;
+    height: 5vh;
+}
+
+.largeBlock {
+    width: 100%;
+    height: 200px;
+}
+
+#user-image {
+    width: 170px;
+    height: 170px;
+    background-image: url("brianDudey.jpg");
+    background-size: 170px 170px;
+    background-repeat: no-repeat;
+    border: 5px dotted rgb(211, 163, 6);
+    border-radius: 50%;
+    transform:translateX(60%);
+}
+.positionBlock{
+    position: absolute;
+    top:8%;
+    left: 40%;
+}
+#name {
+    width: 400px;
+    height: auto;
+    background-color: rgb(211, 163, 6);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1% 2% 1% 2%;
+    font-size: 3em;
+    border-radius: 10px;
+    transform:translateY(-50%);
+}
+
+#address {
+    text-align: center;
+    padding: 0.5%;
+}
+
+hr {
+    background-color: black;
+    height: 2px;
+}
+
+
+#leftBody {
+    float: left;
+    width: 53%;
+    padding: 15px;
+    border-right:1px solid grey;
+}
+
+#rightBody {
+    width: 46%;
+    padding: 10px 20px;
+    float:left;
+}
+
+.heading {
+    color: rgb(82, 82, 82);
+    font-size: 25px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.subheading {
+    color: black;
+    font-weight: bold;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 50%;
+    height: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, rgb(221, 171, 5), #cecece);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    float: right;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: rgb(167, 128, 0);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: rgb(211, 163, 6);
+    border-radius: 50%;
+    cursor: pointer;
+}
+#techskills , #additional-skills{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.date {
+    text-align: right;
+}
+
+ul {
+    padding-left: 10%;
+}
+
+.icon{
+    font-size: 35px;
+    color: rgb(211, 163, 6);
+    background-color: black;
+    border-radius: 50%;
+}
+
